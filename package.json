@@ -1,0 +1,36 @@
+{
+  "name": "application-form",
+  "version": "1.0.0",
+  "description": "My solid Nuxt.js project",
+  "author": "arunmadhavan-g",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "@nuxtjs/font-awesome": "^1.0.3",
+    "axios": "^0.18.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "cross-env": "^5.2.0",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.11.0",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^7.1.0",
+    "vue2-datepicker": "^2.8.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "nodemon": "^1.11.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0"
+  }
+}
